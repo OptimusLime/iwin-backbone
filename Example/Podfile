@@ -1,0 +1,7 @@
+
+target 'iwin-backbone', :exclusive => true do
+  pod "iwin-backbone", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
